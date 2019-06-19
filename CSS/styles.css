@@ -1,4 +1,10 @@
-h1 {
-  font-family: Arial;
-  color: magenta;
+body {
+  padding-top: 0;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.container-fluid{
+padding: 0;
 }
