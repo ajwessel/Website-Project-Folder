@@ -2,3 +2,7 @@ h1 {
   font-family: Arial;
   color: magenta;
 }
+
+img {
+  max-width: 100%
+}
