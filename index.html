@@ -10,7 +10,44 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">I deserve a...</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="holiday.html">Holiday</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Feast</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="house.html">House</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="surprise.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Surprise
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="surprise.html">Puppy</a>
+              <a class="dropdown-item" href="surprise.html">Scarf</a>
+              <a class="dropdown-item" href="surprise.html">Handbag</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+<!-- old nav -->
+    <!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">I deserve a...</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,7 +69,7 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
 
 
     <main role="main" class="container-fluid">
@@ -48,23 +85,20 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://image.cnbcfm.com/api/v1/image/105950666-1559750130206maldivesresort.jpg?v=1559750147&w=1400&h=950" class="d-block w-100" alt="...">
+        <img src="https://image.cnbcfm.com/api/v1/image/105950666-1559750130206maldivesresort.jpg?v=1559750147&w=1400&h=950" class="d-block w-100" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
-          <h5>I deserve...</h5>
           <p>...a holiday</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://blog.opentable.com/wp-content/uploads/sites/108/2018/11/blog-Aureole-copy.jpeg" class="d-block w-100" alt="...">
+        <img src="https://blog.opentable.com/wp-content/uploads/sites/108/2018/11/blog-Aureole-copy.jpeg" class="d-block w-100" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
-          <h5>I deserve...</h5>
           <p>...a feast</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://hivemodern.com/public_resources/full/ch24-wishbone-chair-wood-hans-wegner-carl-hansen-and-son-16.jpg" class="d-block w-100" alt="...">
+        <img alt="First slide"src="https://hivemodern.com/public_resources/full/ch24-wishbone-chair-wood-hans-wegner-carl-hansen-and-son-16.jpg" class="d-block w-100" alt="Third slide">
         <div class="carousel-caption d-none d-md-block">
-          <h5>I deserve...</h5>
           <p>...a design icon</p>
         </div>
       </div>
@@ -79,6 +113,7 @@
     </a>
   </div>
 </div>
+
 
       <!-- Add another row here -->
     </main><!-- /.container -->
