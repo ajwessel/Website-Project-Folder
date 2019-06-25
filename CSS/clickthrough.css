@@ -89,8 +89,8 @@ input[type=submit]:hover {
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #FFFFFF;
-  padding: 10px;
+  background-image: "./images/crushedvelvet.jpg";
+  padding: 100px;
 }
 
 /* Create two columns that float next to eachother */
