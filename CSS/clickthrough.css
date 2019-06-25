@@ -216,7 +216,11 @@ h1 {
 
 .text {
   padding-top: 40px;
-  text-align: justify;
-  padding-left: 10px;
-  padding-right: 10px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.champagneimage {
+  padding-top: 40px;
 }
