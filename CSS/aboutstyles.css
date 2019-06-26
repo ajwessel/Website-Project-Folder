@@ -1,0 +1,207 @@
+body {
+  padding-top: 0;
+  background-image: url("data:image/jpeg;base64,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");
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+/* Carousel */
+
+.container-fluid{
+padding: 0;
+}
+
+img {
+  max-width: 100%
+}
+
+img {
+  max-height: 100%
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 30%;
+  left: 0%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+/* Social media  */
+
+
+html {
+  box-sizing: border-box;
+  background: #f3f3f3;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+.clip {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.svg--source {
+  display: none;
+}
+
+.svg--icon {
+  width: 100%;
+  max-width: 5rem;
+  height: 100%;
+  max-height: 5rem;
+  display: block;
+  margin: 0 auto;
+  fill: currentColor;
+}
+
+.wrapper {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.share {
+  width: 5rem;
+  height: 5rem;
+  float: left;
+  margin: .5rem 1rem .5rem 0;
+  color: #353c4a;
+  border: .125rem solid #f3f3f3;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
+}
+.share:last-child {
+  margin-right: 0;
+}
+.share:focus {
+  outline-color: inherit;
+}
+
+.twitter:hover, .twitter:focus {
+  color: #00ACED;
+  box-shadow: 0 0 24px 0 #00ACED;
+}
+
+.github:hover, .github:focus {
+  color: #4183c4;
+  box-shadow: 0 0 24px 0 #4183c4;
+}
+
+.pinterest:hover, .pinterest:focus {
+  color: #bd081c;
+  box-shadow: 0 0 24px 0 #bd081c;
+}
+
+.youtube:hover, .youtube:focus {
+  color: #cd201f;
+  box-shadow: 0 0 24px 0 #cd201f;
+}
+
+.facebook:hover, .facebook:focus {
+  color: #3b5998;
+  box-shadow: 0 0 24px 0 #3b5998;
+}
+
+.google:hover, .google:focus {
+  color: #dd4b39;
+  box-shadow: 0 0 24px 0 #dd4b39;
+}
+
+
+body {
+  text-align:center;
+}
+
+/* Contact sheet */
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #D3D3D3;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #D3D3D3;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 0px;
+  padding: 100px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+h1 {
+  color: grey;
+  font-size: 1.4em;
+  font-style: helvetica;
+  padding-bottom: 10px;
+}
+
+.text {
+  padding-top: 40px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.champagneimage {
+  padding-top: 40px;
+}
