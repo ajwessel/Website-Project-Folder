@@ -162,7 +162,7 @@ input[type=submit]:hover {
 
 /* Style the container/contact section */
 .container {
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 100px;
 }
 
